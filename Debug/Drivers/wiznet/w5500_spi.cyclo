@@ -1,0 +1,9 @@
+../Drivers/wiznet/w5500_spi.c:13:9:SPIReadWrite	3
+../Drivers/wiznet/w5500_spi.c:26:6:wizchip_select	1
+../Drivers/wiznet/w5500_spi.c:31:6:wizchip_deselect	1
+../Drivers/wiznet/w5500_spi.c:36:9:wizchip_read	1
+../Drivers/wiznet/w5500_spi.c:44:6:wizchip_wrie	1
+../Drivers/wiznet/w5500_spi.c:49:6:wizchip_readburst	2
+../Drivers/wiznet/w5500_spi.c:58:6:wizchip_writeburst	2
+../Drivers/wiznet/w5500_spi.c:67:6:W5500IO_Init	1
+../Drivers/wiznet/w5500_spi.c:80:6:w5500Init	3
