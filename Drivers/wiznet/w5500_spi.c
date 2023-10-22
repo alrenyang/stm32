@@ -80,7 +80,7 @@ void W5500IO_Init()
 void w5500Init()
 {
   uint8_t tmp;
-  uint8_t memsize[2][8] = {{2, 2, 2, 2, 2, 2, 2, 2},{2, 2, 2, 2, 2, 2, 2, 2},};
+  uint8_t W5x00_AdrSet[2][8] = {{2, 2, 2, 2, 2, 2, 2, 2},{2, 2, 2, 2, 2, 2, 2, 2},};
 
   W5500IO_Init();
 
@@ -96,7 +96,7 @@ void w5500Init()
   reg_wizchip_spiburst_cbfunc(wizchip_readburst, wizchip_writeburst);
 
   // WIZchip Initialize
-  if(ctlwizchip(CW_INIT_WIZCHIP, (void*) memsize) == -1){
+  if(ctlwizchip(CW_INIT_WIZCHIP, (void*) W5x00_AdrSet) == -1){
     printf("Wizchip Initialize failed..\r\n");
     while(1);
   }

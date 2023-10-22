@@ -29,7 +29,17 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../ioLibrary_Driver/Ethernet/W5500/w5500.h \
  ../ioLibrary_Driver/Ethernet/socket.h \
  ../ioLibrary_Driver/Ethernet/wizchip_conf.h \
- ../ioLibrary_Driver/Application/loopback/loopback.h
+ ../ioLibrary_Driver/Internet/MQTT/MQTTClient.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTPacket.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTConnect.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTPublish.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTSubscribe.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTUnsubscribe.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTFormat.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/StackTrace.h \
+ ../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTPacket.h \
+ ../ioLibrary_Driver/Internet/MQTT/mqtt_interface.h \
+ ../ioLibrary_Driver/Internet/DNS/dns.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -64,4 +74,14 @@ D:/stm/Firmware/Drivers/wiznet/w5500_spi.h:
 ../ioLibrary_Driver/Ethernet/W5500/w5500.h:
 ../ioLibrary_Driver/Ethernet/socket.h:
 ../ioLibrary_Driver/Ethernet/wizchip_conf.h:
-../ioLibrary_Driver/Application/loopback/loopback.h:
+../ioLibrary_Driver/Internet/MQTT/MQTTClient.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTPacket.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTConnect.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTPublish.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTSubscribe.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTUnsubscribe.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTFormat.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/StackTrace.h:
+../ioLibrary_Driver/Internet/MQTT/./MQTTPacket/src/MQTTPacket.h:
+../ioLibrary_Driver/Internet/MQTT/mqtt_interface.h:
+../ioLibrary_Driver/Internet/DNS/dns.h:
